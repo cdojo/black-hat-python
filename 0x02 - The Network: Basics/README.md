@@ -14,3 +14,9 @@ basics like the ability to copy/paste or an Internet connection. This is whre be
 A Python UDP client is not much different than a TCP client, we change the socket type to **SOCK_DGRAM** when creating the socket object.
 
 ## TCP Server
+
+## TCP proxy
+
+```
+./tcp_proxy.py 127.0.0.1 21 ftp.target.com 21 True
+```
