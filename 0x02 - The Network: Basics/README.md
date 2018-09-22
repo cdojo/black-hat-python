@@ -20,3 +20,11 @@ A Python UDP client is not much different than a TCP client, we change the socke
 ```
 ./tcp_proxy.py 127.0.0.1 21 ftp.target.com 21 True
 ```
+
+## SSH with Paramiko
+
+* bh_sshcmd.py
+
+```
+pip install paramiko
+```
